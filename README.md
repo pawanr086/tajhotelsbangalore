@@ -1,0 +1,2 @@
+# tajhotelsbangalore
+my simple webpage 
