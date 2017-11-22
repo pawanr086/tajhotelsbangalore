@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="/assignment/images/taj_title_logo.png" sizes="150x150">
+<title>Taj Hotels</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_IyxicIw_sVWT7ObwLed_Zw4HSD-kP08&callback=initMap">
+</script>
+<script type="text/javascript" src="/assignment/js/taj_home.js"></script>
+<link href="/assignment/css/tajhotels.css" rel='stylesheet' type='text/css'>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top active">
+	<div class="container-fluid ">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="#myPage" style="padding-top: 5px;padding-bottom: 5px;"><img src="/assignment/images/taj.png"  width="65" height="45" onClick="window.location.reload()"> </a>
+		</div>
+		<div class="collapse navbar-collapse " id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#" >Home</a></li>
+				<li><a href="/assignment/html/taj_check_availability.html">Check Availability</a></li>
+				<li><a href="/assignment/html/taj_career.html">Careers</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div id="myCarousel " class="carousel slide " data-ride="carousel">
+	<ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" ></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+	<li data-target="#myCarousel" data-slide-to="4"></li>
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<img class="img-responsive crlimg" src="/assignment/images/taj_outer_face.jpg" >
+			<div class="carousel-caption slideanim">
+				<h3 >The Outer Face</h3>
+			</div>      
+		</div>
+		<div class="item">
+			<img class="img-responsive crlimg" src="/assignment/images/taj_reception.jpg"  >
+			<div class="carousel-caption slideanim" >
+				<h3>Reception </h3>    
+			</div>
+		</div>
+		<div class="item">
+			<img class="img-responsive crlimg" src="/assignment/images/taj_waiting_loung.jpg" >
+			<div class="carousel-caption slideanim">
+				<h3>Waiting Lounge</h3>
+			</div>      
+		</div>
+		<div class="item">
+			<img class="img-responsive crlimg" src="/assignment/images/taj_dine_in.jpg" >
+			<div class="carousel-caption slideanim">
+				<h3>Dine In</h3>
+			</div>      
+		</div>
+		<div class="item">
+			<img class="img-responsive crlimg" src="/assignment/images/taj_bedroom.jpg" >
+			<div class="carousel-caption slideanim">
+				<h3>Bedroom</h3>
+			</div>      
+		</div>
+	</div>
+</div>
+<div id="welcome_note" class="taj_content">
+	<h5>WELCOME TO TAJ</h5>
+	<p>Quintessentially Indian in its fabric, Taj Hotels Palaces Resorts Safaris is recognized the world over for delivering a unique flavour of hospitality that offers world-class refinement while remaining deeply rooted in its local heritage. With over 100 hotels in 62 locations, Taj offers guests the refined luxury of heritage, the effortlessly efficient service and amenities and a local experience with the assurance of quality.</p>
+</div>
+<div id="about_us" class="taj_content">
+	<h5>ABOUT US</h5>
+	<span class="glyphicon glyphicon-globe logo-small slideanim"></span>
+	<p>Established in 1903, Taj Hotels Palaces Resorts Safaris is one of Asia's largest and finest group of hotels, comprising 98 hotels in 61 locations across the globe, including presence in India, North America, United Kingdom, Africa, Middle East, Malaysia, Sri Lanka, Maldives, Bhutan and Nepal. From world-renowned landmarks to modern business hotels, idyllic beach resorts to authentic Grand Palaces, each Taj hotel offers an unrivalled fusion of warm Indian hospitality, world-class service and modern luxury.  For over a century, The Taj Mahal Palace, Mumbai, the iconic flagship has set a benchmark for fine living with exquisite refinement, inventiveness and warmth. Taj Hotels Palaces Resorts Safaris is part of the Tata Group, India’s premier business house. For more information, please visit www.tajhotels.com</p>
+</div>
+<div id="locate_us" class="taj_content">
+	<h5>LOCATE US</h5>
+	<span class="glyphicon glyphicon-map-marker logo-small slideanim"></span>
+	<div id="map">
+	</div>
+</div>
+<div class="container slideanim " >
+	<div class="taj_content" ><h5 >LOVE FROM GUESTS</h5>
+		<span class="glyphicon glyphicon-heart logo-small slideanim"></span>
+	</div>
+	<div id="guestlv" class="col-md-10 col-md-offset-1 col-sm-12">
+			<div class="review">
+				<p>“Clean, comfortable staying in this hotel.enjoy a lot,hope we shall have more time to stay in hotel next time.” </p><br>
+				<h4>- Thasaie (South Africa)</h4>
+			</div>	  
+			<div class="review">
+				<p>“Luxury. Beautifully flowers everywhere. Best for we've ever had. Room was amazing. Service brilliant. Pool is beautiful. Spa is immaculate.” </p><br>
+				<h4>- Shahadan (Malaysia)</h4>
+			</div>
+			<div class="review">
+				<p>“Second stay at the Taj hotel... and it was another great stay experience. What makes Taj different from other hotel is Service, Service, Service!”</p><br>
+				<h4>- Yohanna (Taiwan)</h4>
+			</div>    
+			<div class="review">
+				<p>“Cleanliness and design of hotel was great. views from rooms lovely.”</p><br>
+				<h4>- Anbareen (India)</h4>
+			</div>
+			<div class="review">
+				<p>“From welcome to the see off was an excellent experience. Each time I went out for restaurant or work & entered my room just to find it spike and span.”  </p><br>
+				<h4>- Neil (United Kingdom)</h4>
+			</div>	
+			<div class="review">
+				<p>“Very comfortable luxury hotel. Excellent value for money.”  </p><br>
+				<h4>- Ron (Australia)</h4>
+			</div>	
+			<div class="review">
+				<p>“The hotel was perfect! Service received from Abhishek was delightful!.”  </p><br>
+				<h4>- Allan (USA)</h4>
+			</div>		  
+	</div>
+</div>
+<footer class="text-center slideanim ">
+	<a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
+	<span class="glyphicon glyphicon-chevron-up  slideanim" ></span>
+	</a><br>
+	<p><span class="glyphicon glyphicon-envelope slideanim"></span> info@taj.com</p>
+</footer>
+</body>
+</html>

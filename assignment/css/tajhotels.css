@@ -1,0 +1,160 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";
+/* Above line is used for online google font */
+
+
+	h3{
+		margin: 10px 0 30px 0;
+		letter-spacing: 10px;      
+		font-size: 20px;
+		color: #ffffff;
+	} 
+	.taj_content h5 {
+		margin: 5px ;
+		letter-spacing: 5px;      
+		font-size: 20px;
+		color: #111;
+	} 
+	.setup {
+		border: 10px solid transparent;
+		margin-bottom: 25px;
+		width: 80%;
+		height: 80%;
+		opacity: 0.7;
+	}
+	.setup:hover {
+		border-color: #ccfff2;
+	}
+	.carousel-inner img {
+		width: 100%; /* Set width to 100% */
+		height : 100px;
+		margin: fixed;
+	}
+	.nav-tabs li a {
+		color: #94774b;
+	} 
+	.navbar {
+		font-family: Georgia, sans-serif;
+		margin-bottom: 0;
+		border: 0;
+		font-size: 11px !important;
+		font-weight:800;
+		letter-spacing: 2px;
+		opacity: 1;
+		background-color:#f2f2f2	;
+	}
+	.navbar li a, .navbar .navbar-brand { 
+		color: #a6a6a6 !important;
+	}
+	.navbar-nav li a:hover {
+		color: #333333!important;
+	}
+	.navbar-nav li.active a {
+		color: #94774b  !important ;
+		font-size: 13px !important;
+		font-weight : 800;
+	}
+	p{
+		color: #94774b  !important ;
+		letter-spacing: 1px;
+		line-height: 2.0;
+		margin-top:15px;
+		margin-left:25px;
+		margin-right:25px;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+	}
+	footer {
+		background-color: #d9d9d9;
+		color: #333333!important;
+		padding: 12px;
+	}
+	.logo-small {
+		color: #94774b;
+		font-size: 50px;
+	}   
+	@media (max-width: 400px) {
+		.carousel-caption {
+		display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+		}
+	}		
+	.slideanim {
+		visibility:hidden;
+		color:#94774b;
+	}
+	.slide {
+		animation-name: slide;
+		-webkit-animation-name: slide;
+		animation-duration: 1s;
+		-webkit-animation-duration: 1s;
+		visibility: visible;
+	}
+	@keyframes slide {
+		0% {
+			opacity: 0;
+			transform: translateY(70%);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0%);
+		}
+	}
+	@-webkit-keyframes slide {
+		0% {
+			opacity: 0;
+			-webkit-transform: translateY(70%);
+		}
+		100% {
+			opacity: 1;
+			-webkit-transform: translateY(0%);
+		}
+	}
+	#map {
+		width: 100%;
+		height: 300px;
+		background-color:  #94774b ;
+		text-align:center;
+		margin-top:15px;
+	}
+	.taj_content{
+		text-align:center;
+		margin:20px 10px 10px 10px;
+	}
+	.taj_content h5{
+		margin-top:30px ;
+	}
+	#career_title {
+		color: #94774b  !important ;
+		letter-spacing: 2px;
+	}
+	#avail_title {
+		color: #94774b  !important ;
+		letter-spacing: 2px;
+	}
+	.crlimg{
+		width:100%; 
+		height:650px;
+	}
+	.review p{
+		margin:5px 0px 5px 0px;
+	}
+	.review h4{
+		color: #000000  !important ;
+		text-align:right;
+		margin:5px 0px 5px 0px;
+	}
+	.guestlv{ 
+		color: #94774b;
+	}
+	.review{
+		border-radius: 25px;
+		border: 2px solid #E0E0E0;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.astrik{
+		color:red;
+	}
+	#mypage{
+		color:#94774b;
+	}
